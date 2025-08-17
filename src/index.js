@@ -46,7 +46,7 @@ app.post("/api/caption", upload.single("image"), async (req, res) => {
           content: [
             {
               type: "text",
-              text: "Generate a short descriptive caption for this image.",
+              text: "Generate short and multiple social media captions for this image.",
             },
             {
               type: "image_url",
